@@ -1,25 +1,28 @@
-# Data Management & Computational Complexity Coursework
-**Module:** ST4015CMD Foundation of Computer Science  
-**Student:** Meher Shilpakar (ID: 250611)
+# ST4015CMD: Foundation of Computer Science Coursework
+**Student Name:** [Meher Shilpakar]
+**Student ID:** [250611]
 
 ## Project Overview
-This repository contains the practical implementation and supporting files for the ST4015CMD coursework.
+This repository contains the practical implementations for Tasks 1, 2, and 3 of the ST4015CMD coursework.
 
-## Folder Structure
+---
 
-### Task 1: Data Encoding
-- Analysis of Base64, Hex, and URL encoding methods for secure data transmission.
-- Includes diagrams of protocol handshakes (TLS/HTTPS).
+## Task 1: Data Encoding and Obfuscation
+- **Folder:** `Task1_Encoding/`
+- **File:** `pythontest.py`
+- **Description:** This Python script demonstrates how sensitive data (like passwords) can be obfuscated using Base64 encoding to secure information during transmission or storage.
 
-### Task 2: Computational Complexity (P vs NP)
-- Logic and analysis for the Classroom Seating Arrangement problem.
-- **Permutation Tree:** Visualizes the $O(n!)$ growth of the brute-force search space.
-- **Heuristics:** Explanation of the Most Constrained First (MCF) approach.
+## Task 2: Algorithmic Complexity
+- **Folder:** `Task2_Complexity/`
+- **Description:** Contains the logical analysis and visualizations for algorithmic efficiency.
+- **Diagram:** The `project.drawio.png` in the `Diagrams/` folder illustrates the permutation tree/logic flow used for this task.
 
-### Task 3: Relational Databases (SQL)
-- **Schema:** 3NF normalized database structure to eliminate redundancy.
-- **Scripts:** Includes `schema.sql` for table creation and `queries.sql` for data retrieval.
+## Task 3: Relational Database Implementation (3NF)
+- **Folder:** `Task3_Database/`
+- **schema.sql:** Defines the normalized 3rd Normal Form (3NF) structure for the CollegeClubs database (Student, Club, and Membership tables).
+- **updates.sql:** Shows the DML operations used to add new entities, specifically the student 'Ram' and the 'Art Club' with mentor 'Ms.Pramila'.
+- **queries.sql:** Contains the relational JOIN queries used to reconstruct the full enrollment report from the normalized tables.
 
-## How to Run the Scripts
-1. For SQL: Import `schema.sql` into any standard SQL environment (MySQL/PostgreSQL).
-2. Run `queries.sql` to view the relational data outputs as seen in the report.
+## Diagrams and Visualizations
+- **Folder:** `Diagrams/`
+- All ER diagrams, permutation trees, and process flowcharts (including `project.drawio.png`) are stored here for easy reference.
